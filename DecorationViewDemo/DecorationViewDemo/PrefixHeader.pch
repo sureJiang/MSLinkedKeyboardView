@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  DecorationViewDemo
+//
+//  Created by 姜自佳 on 2017/5/25.
+//  Copyright © 2017年 . All rights reserved.
+//
+
+
+
+
+#import "MSCrashProtector.h"
+
+#import "Masonry.h"
+#import "UIButton+WebCache.h"
+#import "UIView+SpringAnimation.h"
+
+#define WEAKSelf                    __weak typeof(self) weakSelf = self;
+
+#define KScreenWidth               [[UIScreen mainScreen] bounds].size.width
+#define KScreenHeight              [[UIScreen mainScreen] bounds].size.height
+#define unifiedColor               RGBACOLOR(250, 250, 250, 0.9)
+#define pagecontrolIndicatorColor  RGBACOLOR(214, 214, 214, 1.0)
+#define pagecontrolCurrentColor    RGBACOLOR(139, 139, 139, 1.0)
+#define RGBACOLOR(r,g,b,a)         [UIColor colorWithRed:(r)/255.0\
+                                                   green:(g)/255.0\
+                                                    blue:(b)/255.0\
+                                                   alpha:(a)]
+

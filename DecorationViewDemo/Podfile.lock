@@ -1,0 +1,26 @@
+PODS:
+  - Masonry (1.0.2)
+  - MSCrashProtector (1.2.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MSCrashProtector
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MSCrashProtector
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MSCrashProtector: 46188bfaf9323ac59f91d6585b2a76b0df7e3360
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 17ab9a1538881688ca4dd37a490b4e3c09a40ed7
+
+COCOAPODS: 1.5.3
